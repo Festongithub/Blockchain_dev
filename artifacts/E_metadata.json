@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/eventdrivenarc.sol": "E"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/eventdrivenarc.sol": {
+			"keccak256": "0x2768da19a3327a492b398e09707765e142a6a705bb6496c7e67ddaacccb12454",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://56defa6d12b3120fb35ebf0a975650243218298191f66ee428783662dc920880",
+				"dweb:/ipfs/QmegeVXEtx9Ah9WhWYCcGAtv28F68MvLczDbXQbWaAnNNu"
+			]
+		}
+	},
+	"version": 1
+}

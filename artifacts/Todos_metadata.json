@@ -1,0 +1,146 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
+					}
+				],
+				"name": "create",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "text",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "completed",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "todos",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "text",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "completed",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "toggleCompleted",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
+					}
+				],
+				"name": "updateText",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/structs.sol": "Todos"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/structdeclaration.sol": {
+			"keccak256": "0x91e251bd2a4061310d82c1b9f0fd734853592977f1c05e36427e03fb006da7da",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4d7ab32dacd2166bc0b760c794127baf2899cc055938af382fb72a2045080c17",
+				"dweb:/ipfs/QmbTpUChDxq1Qb4xZhuXFyxn4mDeEJMc9AkvHyKMvVF2Py"
+			]
+		},
+		"contracts/structs.sol": {
+			"keccak256": "0x2980741f655262c4b6e02d55379061a5f696f1ae26a11c65c128e0eef2d91175",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://16244abf9afe79559aec7a6b837eb7fc2c7429df3cf13d62af083707cb0f929c",
+				"dweb:/ipfs/QmS6ZBaYU6BLoJZdEwXuUvsyoBY6yT7xzdjAeTfJ4NbjqP"
+			]
+		}
+	},
+	"version": 1
+}
