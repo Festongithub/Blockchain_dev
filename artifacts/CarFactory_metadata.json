@@ -8,17 +8,36 @@
 			{
 				"inputs": [
 					{
-						"internalType": "contract Callee",
-						"name": "_callee",
-						"type": "address"
-					},
-					{
 						"internalType": "uint256",
-						"name": "_x",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "setX",
+				"name": "cars",
+				"outputs": [
+					{
+						"internalType": "contract Car",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_model",
+						"type": "string"
+					}
+				],
+				"name": "create",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -27,34 +46,16 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_addr",
+						"name": "_owner",
 						"type": "address"
 					},
 					{
-						"internalType": "uint256",
-						"name": "_x",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "_model",
+						"type": "string"
 					}
 				],
-				"name": "setXFromAddress",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "contract Callee",
-						"name": "_callee",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_x",
-						"type": "uint256"
-					}
-				],
-				"name": "setXandSendEther",
+				"name": "createAndSendEther",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
@@ -73,7 +74,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/callee.sol": "Caller"
+			"contracts/Car.sol": "CarFactory"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -87,12 +88,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/callee.sol": {
-			"keccak256": "0xf66ccb625b4f7169e96ea528f4b77113792816ece6470aac64a35a8dad0c554c",
+		"contracts/Car.sol": {
+			"keccak256": "0x8d9c158c1a3a9f70656f24ec914832ed216b971200f7d087076c1979d6d49a51",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bcd80a1a57c92f80ab8846c8f82ebc3abfa5269c0ac8a9c6f0de1d8b1c94230f",
-				"dweb:/ipfs/QmX8BZxg8BoxMYaLb2VQVjDP5z6yiE7RoH5tJ1eaNcoAL9"
+				"bzz-raw://cc754d4d3df4f5d8ad49fa47620d7515f242a78ab5e02e3705ab1c7be031b3d1",
+				"dweb:/ipfs/QmZw7h4fhkx32SH4hmUMhyocqRudX6oQuZ1dSgNcnqiaTN"
 			]
 		}
 	},
