@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "foo",
+				"outputs": [
+					{
+						"internalType": "contract Foo",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getFooName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Import.sol": "Import"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Foo.sol": {
+			"keccak256": "0x4b07b26694ffbf610c6e0e2fa8e29d4989da8bc0f9b5ff825de47182ec823d02",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://103274315b0f4b0897a09d8e69325e4ee4179c7e2fe8ade017119c05e30dddf7",
+				"dweb:/ipfs/QmTadfdABKeJdmw2DFGWtW55tju95igYuqLs7AszaJkUwA"
+			]
+		},
+		"contracts/Import.sol": {
+			"keccak256": "0xa785291a9584af4ee4e1952cc25cabb92bd11cbaec90badc030b925363206bbe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://16dba1481af2b12af9c44c915a5b1c45c4f66541f6d7f9606fc498e8726da95b",
+				"dweb:/ipfs/QmTc8twkAUbvPCfDCFfZPBW5AaoErQWFJ73B2q9eSyjuhy"
+			]
+		}
+	},
+	"version": 1
+}
